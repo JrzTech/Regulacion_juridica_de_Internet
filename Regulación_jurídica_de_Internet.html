@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Regulación jurídica de Internet · Presentación</title><style>*{box-sizing:border-box}html,body{margin:0;height:100%;background:#0a111e;overflow:hidden;font:20px/1.5 Georgia,"Times New Roman",serif;color:#1c2a44}
+button{font:inherit;cursor:pointer;color:inherit}
+#st{position:absolute;left:50%;top:50%;width:1280px;height:720px;background:#f6f1e7;transform-origin:center;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 0 40px #0008}
+#hd{background:#14233f;color:#f1e9d6;display:flex;align-items:center;gap:8px;padding:0 24px;height:56px;flex-shrink:0}
+#hd b{color:#d9aa4b;letter-spacing:.08em;margin-right:auto;font-size:17px;display:flex;align-items:center;gap:10px}#hd b img{height:26px;width:auto}#hd button img{height:18px;width:18px;vertical-align:middle}
+#hd button{background:#ffffff14;border:0;border-radius:8px;min-width:42px;height:34px;color:#f1e9d6;font-size:16px}
+#hd button.on{background:#d9aa4b;color:#1a1405;font-weight:bold}
+#bd{flex:1;padding:28px 56px;overflow:auto;animation:f .3s}
+@keyframes f{from{opacity:0;transform:translateX(18px)}to{opacity:1}}
+#ft{height:64px;background:#efe6d2;display:flex;align-items:center;justify-content:space-between;padding:0 24px;flex-shrink:0;position:relative}
+#ft button{background:#b8892b;border:0;border-radius:8px;padding:8px 22px;font-weight:bold;color:#1a1405}#ft button:disabled{opacity:.3}
+#pg{position:absolute;left:0;top:0;height:4px;background:#b8892b;transition:width .3s}
+.chip{display:inline-block;background:#b8892b;color:#1a1405;font-size:14px;font-weight:bold;letter-spacing:.1em;padding:3px 12px;border-radius:20px}
+h1{font-size:50px;margin:10px 0 6px;color:#14233f}h2{font-size:34px;margin:0 0 14px;color:#14233f}
+.cv{background:linear-gradient(135deg,#14233f,#27406e);color:#f6efdc;border-radius:16px;padding:28px 36px;margin-bottom:20px;position:relative;overflow:hidden}.cv h1{color:#f6efdc;margin:6px 0}.cv p{margin:0;opacity:.9}.cv .ic{position:absolute;right:30px;top:6px;opacity:.2}.cv .ic img{height:110px;width:110px;object-fit:contain}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.tile{background:#fffdf8;border:1px solid #e2d8c3;border-top:5px solid #b8892b;border-radius:12px;padding:12px 16px;text-align:left;transition:transform .15s}.tile:hover{transform:translateY(-4px)}.tile span{display:block;height:32px}.tile span img{height:32px;width:32px;object-fit:contain}.tile b{display:block;font-size:17px;line-height:1.25}
+.ana{background:#efe6d2;border-left:6px solid #b8892b;border-radius:12px;padding:20px 26px;font-size:26px;line-height:1.5;margin-top:26px}.ana b img{height:18px;width:18px;vertical-align:-3px;margin-right:6px}.ana b{display:block;color:#b8892b;font-size:15px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px}
+.stats{display:flex;gap:16px;margin:12px 0 18px}.stat{flex:1;background:#efe6d2;border-radius:12px;padding:16px;text-align:center}.stat b{display:block;font-size:40px;color:#b8892b}.stat small{color:#5b6678;font-size:17px}
+.flip{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px;margin-top:10px}
+.flip button{background:#fffdf8;border:2px solid #e2d8c3;border-radius:12px;padding:16px;text-align:left;min-height:130px}.flip button:hover{border-color:#b8892b}.flip b{display:block;color:#14233f}.flip em{font-style:normal;color:#5b6678;font-size:18px}
+.chip img{height:15px;width:15px;vertical-align:-3px;margin-left:4px}.fb img{height:24px;width:24px;vertical-align:-5px;margin-right:6px}
+.cv.cp{padding:18px 30px;margin-bottom:14px}.cv.cp h1{font-size:42px;margin:4px 0;line-height:1.2}
+.team{display:flex;align-items:center;gap:20px;margin-top:18px;background:#fffdf8;border:1px solid #e2d8c3;border-radius:12px;padding:12px 18px}.uni{flex-shrink:0;width:220px;height:110px;background:#fff;border:2px dashed #cdbf9f;border-radius:10px;display:flex;align-items:center;justify-content:center;overflow:hidden}.uni img{max-width:100%;max-height:100%;object-fit:contain}
+.mem{flex:1}.mem b{display:block;color:#b8892b;font-size:14px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:4px}.mem div{display:grid;grid-template-columns:1fr 1fr;gap:2px 24px;font-size:18px;color:#14233f}
+table{border-collapse:collapse;width:100%;font-size:18px}th,td{border-bottom:1px solid #e2d8c3;padding:9px;text-align:left}th{color:#b8892b}
+ul{margin:6px 0;padding-left:26px}li{margin:6px 0}h4{margin:12px 0 4px;color:#b8892b;font-size:22px}p{margin:8px 0}
+.q{font-size:32px;margin:6px 0 20px;color:#14233f}.o{display:block;width:100%;text-align:left;background:#fffdf8;border:2px solid #e2d8c3;border-radius:12px;padding:14px 20px;margin:10px 0;font-size:24px}.o:hover{border-color:#b8892b}.o.ok{background:#2f7d4f;color:#fff;border-color:#2f7d4f}.o.no{background:#a63d3d;color:#fff;border-color:#a63d3d}.fb{font-size:22px;margin-top:12px;min-height:30px}</style></head><body><div id="st"><div id="hd"></div><div id="bd"></div><div id="ft"><i id="pg"></i><button id="pv">← Anterior</button><span id="ct"></span><button id="nx">Siguiente →</button></div></div><script>
+/* ============ CONFIGURACIÓN ============
+   Para cambiar una imagen, pega su URL entre las comillas.
+   Si dejas "" se usa el ícono por defecto incluido.
+   Si una URL falla, también se usa el ícono por defecto. */
+const IMG={
+  universidad:"https://avatars.githubusercontent.com/u/80273512?s=280&v=4",   // Imagen de tu universidad (portada)
+  logoEncabezado:"",// Ícono junto al título del menú superior
+  inicio:"",        // Botón de inicio
+  pantallaCompleta:"", // Botón de pantalla completa
+  temas:["","","","","","",""], // Ícono de cada tema (I a VII)
+  analogia:"",      // Ícono de "Analogía cotidiana"
+  quiz:"",          // Ícono de "Mini quiz"
+  correcto:"",      // Ícono de respuesta correcta
+  incorrecto:""     // Ícono de respuesta incorrecta
+};
+const INTEGRANTES=["Rodriguez Chávez Juan Ramón","Ulibarri Bernal María José","Vega Sánchez Jocelyn Yarel","Viera Aguilar María Jocelyn"];
+/* ======================================== */
+const sv=(p,c)=>'data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="'+c+'" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">'+p+'</svg>');
+const P={
+ balanza:'<path d="M12 3v18M6 21h12M5 7h14M5 7l-3 7a3 3 0 0 0 6 0zM19 7l-3 7a3 3 0 0 0 6 0z"/>',
+ t0:'<path d="M8 3L4 21M16 3l4 18M12 4v3M12 10v4M12 17v3"/>',
+ t1:'<path d="M4 5h16v11H10l-5 4v-4H4z"/>',
+ t2:'<path d="M3 11l9-8 9 8M5 10v11h14V10M10 21v-6h4v6"/>',
+ t3:'<path d="M2 3h3l3 12h11l2-8H6"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/>',
+ t4:'<circle cx="12" cy="12" r="9"/><path d="M15 9.5a4 4 0 1 0 0 5"/>',
+ t5:'<path d="M12 3l10 18H2zM12 10v5M12 18v.5"/>',
+ t6:'<path d="M6 3h9l4 4v14H6zM14 3v5h5M9 13h7M9 17h7"/>',
+ idea:'<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10c1 1 1 2 1 3h6c0-1 0-2 1-3a6 6 0 0 0-4-10z"/>',
+ ok:'<path d="M4 12l5 5L20 6"/>',no:'<path d="M6 6l12 12M18 6L6 18"/>',
+ home:'<path d="M3 11l9-8 9 8M5 10v11h14V10"/>',
+ fs:'<path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/>'};
+const DEF={
+ universidad:'data:image/svg+xml;utf8,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 84"><text x="85" y="38" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#8a7a55">[Imagen de mi</text><text x="85" y="56" text-anchor="middle" font-family="Georgia,serif" font-size="13" fill="#8a7a55">universidad]</text></svg>'),
+ logoEncabezado:sv(P.balanza,'#d9aa4b'),inicio:sv(P.home,'#f1e9d6'),pantallaCompleta:sv(P.fs,'#f1e9d6'),
+ analogia:sv(P.idea,'#b8892b'),quiz:sv(P.balanza,'#1a1405'),correcto:sv(P.ok,'#2f7d4f'),incorrecto:sv(P.no,'#a63d3d')};
+for(let i=0;i<7;i++)DEF['t'+i]=sv(P['t'+i],'#b8892b');
+const im=(k,u)=>'<img src="'+(u||DEF[k])+'" alt="" onerror="this.onerror=null;this.src=DEF[\''+k+'\']">';
+const S=[
+{t:"Internet en México y su repercusión en el derecho",sh:"Internet en México",
+ana:"Internet es como una carretera nacional: cada vez circulan más vehículos, así que hacen falta reglamento de tránsito, autoridades y reglas para todos. El derecho es ese reglamento.",
+tabs:[["Datos",`<div class="stats"><div class="stat"><b>86.1%</b><small>usuarios de Internet en 2025 (57.4% en 2015)</small></div><div class="stat"><b>78.3%</b><small>de las familias con acceso</small></div><div class="stat"><b>97.3%</b><small>navega desde su celular</small></div></div><p>Aún hay brecha: uso del 88.9% en zonas urbanas y 75.2% en rurales. <small>(INEGI, ENDUTIH 2025)</small></p>`],
+["Marco legal",`<h4>Constitución</h4><p><b>Art. 6.º:</b> derecho a acceder a las tecnologías de la información y a la banda ancha (reforma de 2013). <b>Art. 7.º:</b> libertad de difundir ideas por cualquier medio.</p><h4>Reforma de 2025</h4><p>La nueva Ley en Materia de Telecomunicaciones y Radiodifusión (DOF 16/07/2025) sustituyó a la de 2014. El IFT desapareció y sus funciones pasaron a la Agencia de Transformación Digital y Telecomunicaciones y a la Comisión Reguladora de Telecomunicaciones.</p>`],
+["Ramas del derecho",`<p>Toca cada tarjeta:</p><div class="flip" data-flip='[["Constitucional","Acceso a Internet como derecho humano. Arts. 6 y 7."],["Administrativo","Regulación del sector telecom. Ley de Telecomunicaciones (2025)."],["Civil y mercantil","Contratos y firma electrónica. Código Civil Federal y Código de Comercio."],["Consumidor","Compras en línea. Ley Federal de Protección al Consumidor."],["Penal","Delitos informáticos. Código Penal Federal, arts. 211 bis 1-7."],["Propiedad intelectual","Obras y marcas digitales. LFDA y LFPPI."],["Datos personales","Tratamiento por empresas. LFPDPPP (2025)."]]'></div>`]],
+quiz:["¿Qué artículo constitucional reconoce el derecho de acceso a Internet y banda ancha?",["Art. 6.º","Art. 16","Art. 27"],0,"El art. 6.º, reformado en 2013, lo reconoce expresamente."]},
+{t:"Derecho a la información y libertad de expresión en el ámbito digital",sh:"Información y expresión",
+ana:"Las redes sociales son la plaza del pueblo: puedes hablar, opinar y enterarte de todo, pero no puedes difamar ni gritar “¡fuego!” si no lo hay. Tu libertad termina donde empiezan los derechos de otros.",
+tabs:[["Derechos de expresión e información",`<div class="flip" data-flip='[["Derecho a la información (art. 6)","Buscar, recibir y conocer información; incluye acceso a la información pública y derecho de réplica."],["Libertad de expresión (art. 6)","Manifestar ideas sin inquisición judicial o administrativa."],["Libertad de imprenta (art. 7)","Difundir opiniones, información e ideas por cualquier medio, incluido Internet. No hay censura previa."]]'></div>`],
+["Límites",`<p>La expresión puede limitarse solo en casos previstos por la ley, por ejemplo cuando:</p><ul><li>Ataque la moral o los derechos de terceros (honor, vida privada).</li><li>Provoque algún delito.</li><li>Perturbe el orden público.</li></ul><p>Y toda restricción debe ser <b>necesaria y proporcional</b>. En Internet pesan mucho la desinformación y la moderación que hacen las plataformas.</p>`],
+["Cómo se aborda la desinformación",`<p>Combatir información falsa con leyes punitivas puede terminar persiguiendo opiniones incómodas. Una vía propuesta es la <b>alfabetización mediática</b>: enseñar desde la primaria a verificar fuentes, detectar noticias falsas y compartir con responsabilidad.</p>`]],
+quiz:["Un medio publica tu opinión sobre el gobierno. ¿Se puede censurar antes de publicarse?",["Sí, si la autoridad lo decide","No: el art. 7 prohíbe la censura previa","Solo si es en redes sociales"],1,"La censura previa está prohibida; las responsabilidades, en su caso, vienen después."]},
+{t:"Derecho a la privacidad: personas públicas, privadas e interés social",sh:"Privacidad",
+ana:"Tu vida es una casa. Una persona privada vive con las cortinas cerradas. Una figura pública vive en una casa con ventanas más grandes, pero ni ella está obligada a mostrar su baño.",
+tabs:[["Marco legal",`<ul><li><b>Art. 16 constitucional:</b> protege tu vida privada y datos personales; incluye los derechos <b>ARCO</b>: Acceso, Rectificación, Cancelación y Oposición.</li><li><b>Ley Federal de Protección de Datos Personales en Posesión de Particulares</b> (DOF 20/03/2025). Su control pasó del INAI a la Secretaría Anticorrupción y Buen Gobierno.</li><li><b>Art. 1916 del Código Civil Federal:</b> daño moral.</li></ul>`],
+["Tipos de persona",`<p>Toca para ver el estándar:</p><div class="flip" data-flip='[["Servidor público","Privacidad mínima en lo relativo a su cargo. Solo responde quien publica con “real malicia” (sabiendo que es falso)."],["Persona pública sin cargo (artistas, influencers)","Privacidad reducida en lo que proyectan. Real malicia en temas de interés público."],["Persona privada","Protección máxima. Basta la negligencia de quien publica para responder."]]'></div>`],
+["Interés público y olvido",`<p>Puede difundirse información privada relevante para la sociedad (uso de recursos públicos, conductas delictivas), pero lo íntimo sin relación con la función pública sigue protegido.</p><p>En el <b>AR 341/2022</b> la SCJN resolvió que el “derecho al olvido” europeo no es compatible con la Constitución; sí procede <b>cancelar datos vía ARCO</b>, y el paso del tiempo no elimina por sí solo el interés público.</p><p><b>Retos:</b> imágenes íntimas, recolección masiva de datos y geolocalización.</p>`]],
+quiz:["¿Quién tiene mayor protección de su privacidad?",["Un servidor público","Un influencer","Una persona privada"],2,"La persona privada tiene protección máxima; basta negligencia para que responda quien publica."]},
+{t:"Prácticas mercantiles a través de Internet",sh:"Comercio electrónico",
+ana:"Comprar en línea es como ir al tianguis, pero con el puesto escondido: no ves al vendedor ni tocas el producto. Por eso la ley te da un “recibo” de derechos: información clara, datos protegidos y vías de reclamo.",
+tabs:[["Datos",`<div class="stats"><div class="stat"><b>$941 mil mdp</b><small>ventas 2025 (+19.2%)</small></div><div class="stat"><b>17.7%</b><small>de las ventas minoristas</small></div><div class="stat"><b>77.2 M</b><small>compradores</small></div><div class="stat"><b>8.º</b><small>lugar mundial</small></div></div><p>Modalidades: <b>B2C</b> (empresa a consumidor), <b>B2B</b> (entre empresas), <b>C2C</b> (entre consumidores, como en redes sociales) y <b>B2G</b> (compras públicas digitales).</p>`],
+["Normas clave",`<div class="tbl"><table><tr><th>Norma</th><th>Qué regula</th></tr><tr><td>Código de Comercio, arts. 89-114</td><td>Mensajes de datos y firma electrónica</td></tr><tr><td>LFPC, art. 76 Bis</td><td>Derechos en compras electrónicas</td></tr><tr><td>NOM-151-SCFI-2016</td><td>Conservación de mensajes de datos</td></tr><tr><td>Ley Fintech (2018)</td><td>Pagos electrónicos y activos virtuales</td></tr><tr><td>Leyes del IVA e ISR (2020)</td><td>Impuestos a plataformas digitales</td></tr></table></div>`],
+["Tus derechos",`<p>Según el <b>art. 76 Bis</b>, el proveedor debe:</p><ul><li>Proteger la confidencialidad de tus datos y usar medidas de seguridad.</li><li>Informar su domicilio y medios para reclamaciones.</li><li>Evitar prácticas engañosas y aclarar costos y condiciones.</li></ul><p><b>Profeco</b> ofrece Concilianet, Monitoreo de Tiendas Virtuales y el Distintivo Digital. Abusos comunes: publicidad engañosa y cargos no autorizados.</p>`]],
+quiz:["Compraste algo y te cobraron un cargo que no autorizaste. ¿A qué práctica corresponde?",["Práctica indebida del proveedor","Algo normal en línea","Un delito de piratería"],0,"Los cargos no autorizados y la publicidad engañosa son prácticas indebidas; puedes acudir a Profeco."]},
+{t:"Propiedad intelectual en Internet",sh:"Propiedad intelectual",
+ana:"Una canción, un logo o un meme es como tu casa: tiene dueño. Copiarlo sin permiso es entrar sin pedir llave. Y un logo es como tu nombre: si alguien más lo usa, te confunden con él.",
+tabs:[["Dos grandes ramas",`<div class="flip" data-flip='[["Derecho de autor (LFDA)","Protege obras: textos, música, fotos, videos, software. Nace desde que creas la obra, sin necesidad de trámite."],["Propiedad industrial (LFPPI)","Protege marcas, logotipos, patentes y nombres comerciales. Se obtiene registrándolos ante el IMPI."]]'></div><p>Además, los <b>nombres de dominio</b> pueden chocar con marcas ajenas.</p>`],
+["Qué pasa en Internet",`<ul><li><b>Copiar y compartir</b> es muy fácil, pero que algo esté en línea no significa que sea libre de usar.</li><li><b>Piratería:</b> sancionada penalmente (CPF, arts. 424 Bis a 427 Quater, reforma de 2020).</li><li><b>Licencias</b> como Creative Commons permiten al autor decidir qué usos autoriza.</li><li>Cita siempre la fuente y respeta los permisos.</li></ul>`]],
+quiz:["Encuentras una foto en Google y la usas en tu negocio sin permiso. ¿Es válido?",["Sí, si está en Internet es libre","No, puede tener derechos de autor","Sí, si pones tu logo"],1,"Estar en línea no la hace libre; necesitas permiso o una licencia que lo permita."]},
+{t:"Prácticas delictivas a través de Internet",sh:"Delitos informáticos",
+ana:"Acceso ilícito a un sistema = alguien que fuerza la cerradura de tu casa. Fraude en línea = el estafador que te llama por teléfono: no entra, pero te convence de abrirle la puerta.",
+tabs:[["Datos",`<div class="stats"><div class="stat"><b>18.9 M</b><small>personas sufrieron ciberacoso en 2024 (21%)</small></div><div class="stat"><b>22.2%</b><small>mujeres</small></div><div class="stat"><b>19.6%</b><small>hombres</small></div></div><p><small>INEGI, MOCIBA 2024.</small></p><p><b>Delitos cibernéticos estrictos:</b> afectan sistemas y datos (acceso no autorizado, malware, ransomware). <b>Delitos convencionales por medios digitales:</b> fraude, extorsión, acoso.</p>`],
+["Conductas y fundamento",`<div class="tbl"><table><tr><th>Conducta</th><th>Fundamento</th></tr><tr><td>Acceso ilícito a sistemas</td><td>CPF, arts. 211 bis 1-7 (más pena si es del Estado o financiero)</td></tr><tr><td>Difusión de contenido íntimo sin consentimiento (Ley Olimpia)</td><td>CPF, art. 199 Octies: 3 a 6 años de prisión</td></tr><tr><td>Fraude (phishing, tiendas falsas)</td><td>CPF, art. 386</td></tr><tr><td>Extorsión digital</td><td>CPF, art. 390</td></tr><tr><td>Pornografía infantil</td><td>CPF, arts. 201-202 (delito grave)</td></tr><tr><td>Piratería</td><td>CPF, arts. 424 Bis-427 Quater</td></tr><tr><td>Suplantación de identidad y ciberacoso</td><td>Leyes estatales (regulación dispersa)</td></tr></table></div>`],
+["Autoridades y retos",`<p><b>Participan:</b> Policía Cibernética (la del Estado de México recibe unos 15 mil reportes al año), FGR, fiscalías locales y Condusef.</p><p><b>Retos:</b> jurisdicción, debilidad de las pruebas digitales, normas distintas entre estados, falta de adhesión al Convenio de Budapest y delitos que no se denuncian.</p>`]],
+quiz:["Alguien difunde fotos íntimas tuyas sin tu permiso. ¿Qué ley lo sanciona?",["Ley Olimpia","Ley Fintech","Ley del IVA"],0,"La Ley Olimpia (CPF art. 199 Octies) lo sanciona con 3 a 6 años de prisión."]},
+{t:"Contratos relacionados con Internet",sh:"Contratos",
+ana:"Dar clic en “Acepto” es como firmar en la ventanilla del banco sin leer la letra pequeña: con ese gesto ya quedaste obligado.",
+tabs:[["Validez",`<p>Un contrato digital vale igual que uno físico:</p><ul><li><b>Código Civil Federal:</b> acepta el consentimiento por medios digitales (art. 1803), no exige acuerdo previo para usarlos (art. 1811) y cumple la forma escrita si la información es atribuible a las partes y accesible (art. 1834 bis).</li><li>También: Código de Comercio, Ley de Firma Electrónica Avanzada (2012), LFPC (contratos de adhesión, arts. 85-90; las cláusulas abusivas son nulas) y NOM-151.</li></ul><p><b>Elementos:</b> consentimiento, objeto, capacidad (difícil de verificar en línea) y forma.</p>`],
+["Formas de aceptación",`<div class="flip" data-flip='[["Clickwrap","El usuario marca “Acepto”. Fuerza jurídica: alta."],["Browsewrap","Aplica con solo navegar. Fuerza jurídica: débil."],["Shrinkwrap","Se acepta al instalar el software. Fuerza jurídica: media."],["Firma electrónica avanzada","e.firma del SAT. Equivale a firma autógrafa."]]'></div>`],
+["Contratos comunes",`<p>Términos y condiciones, política de privacidad, venta en línea, licencias de software y SaaS, hosting y nube, registro de dominios, desarrollo de software, promoción con influencers, servicios de comunicación y contratos inteligentes (sin legislación específica).</p><p><b>Problemas:</b> identificar a las partes, demostrar la aceptación, cláusulas injustas e imposición de jurisdicciones extranjeras.</p>`]],
+quiz:["¿Qué forma de aceptación tiene mayor fuerza jurídica entre estas?",["Browsewrap (solo navegar)","Clickwrap (marcar “Acepto”)","Ninguna vale"],1,"Clickwrap muestra una aceptación expresa; browsewrap es débil. La e.firma equivale a firma autógrafa."]}
+];
+const R=['I','II','III','IV','V','VI','VII'],$=s=>document.querySelector(s);
+const L=[{k:'c'}];S.forEach((s,i)=>{L.push({k:'t',i});s.tabs.forEach((_,j)=>L.push({k:'b',i,j}));L.push({k:'q',i})});
+let n=0;const st=$('#st'),bd=$('#bd');
+function fit(){const k=Math.min(innerWidth/1280,innerHeight/720);st.style.transform='translate(-50%,-50%) scale('+k+')'}
+addEventListener('resize',fit);fit();
+const first=i=>L.findIndex(x=>x.i===i);
+$('#hd').innerHTML='<b>'+im('logoEncabezado',IMG.logoEncabezado)+'Regulación jurídica de Internet</b><button data-g="0" title="Inicio">'+im('inicio',IMG.inicio)+'</button>'+R.map((r,i)=>'<button data-g="'+first(i)+'" data-t="'+i+'" title="'+S[i].sh+'">'+r+'</button>').join('')+'<button id="fs" title="Pantalla completa">'+im('pantallaCompleta',IMG.pantallaCompleta)+'</button>';
+$('#hd').onclick=e=>{const b=e.target.closest('button');if(!b)return;if(b.id==='fs'){document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();return}go(+b.dataset.g)};
+function flips(r){r.querySelectorAll('[data-flip]').forEach(d=>{const a=JSON.parse(d.dataset.flip);d.innerHTML=a.map(x=>'<button><b>'+x[0]+'</b><em>Toca para ver</em></button>').join('');d.querySelectorAll('button').forEach((b,k)=>b.onclick=()=>{const o=b.dataset.o==='1';b.dataset.o=o?'0':'1';b.querySelector('em').textContent=o?'Toca para ver':a[k][1]})})}
+function go(x){n=Math.max(0,Math.min(L.length-1,x));const l=L[n],s=S[l.i];let h='';
+if(l.k==='c')h='<div class="cv cp"><span class="chip">MATERIA: DERECHO</span><h1>Regulación jurídica de Internet</h1><p>7 temas, ejemplos de la vida diaria y mini quiz. Elige un tema o avanza con las flechas.</p><div class="ic">'+im('logoEncabezado',IMG.logoEncabezado)+'</div></div><div class="grid">'+S.map((s,i)=>'<button class="tile" data-g="'+first(i)+'"><span>'+im('t'+i,IMG.temas[i])+'</span><b>'+R[i]+'. '+s.sh+'</b></button>').join('')+'</div><div class="team"><div class="uni">'+im('universidad',IMG.universidad)+'</div><div class="mem"><b>Integrantes</b><div>'+INTEGRANTES.map(x=>'<span>'+x+'</span>').join('')+'</div></div></div>';
+else if(l.k==='t')h='<div class="cv"><span class="chip">TEMA '+R[l.i]+'</span><h1 style="font-size:42px">'+s.t+'</h1><div class="ic">'+im('t'+l.i,IMG.temas[l.i])+'</div></div><div class="ana"><b>'+im('analogia',IMG.analogia)+'Analogía cotidiana</b>'+s.ana+'</div>';
+else if(l.k==='b')h='<span class="chip">'+R[l.i]+' · '+s.sh+'</span><h2 style="margin-top:8px">'+s.tabs[l.j][0]+'</h2><div id="pn">'+s.tabs[l.j][1]+'</div>';
+else h='<span class="chip">'+R[l.i]+' · MINI QUIZ'+im('quiz',IMG.quiz)+'</span><div class="q" style="margin-top:14px">'+s.quiz[0]+'</div>'+s.quiz[1].map((o,k)=>'<button class="o" data-k="'+k+'">'+o+'</button>').join('')+'<div class="fb" id="fb"></div>';
+bd.style.animation='none';bd.offsetWidth;bd.style.animation='';bd.innerHTML=h;bd.scrollTop=0;flips(bd);
+bd.querySelectorAll('[data-g]').forEach(b=>b.onclick=()=>go(+b.dataset.g));
+if(l.k==='q')bd.querySelectorAll('.o').forEach(b=>b.onclick=()=>{const ok=+b.dataset.k===s.quiz[2];b.classList.add(ok?'ok':'no');$('#fb').innerHTML=ok?im('correcto',IMG.correcto)+'<b>¡Correcto!</b> '+s.quiz[3]:im('incorrecto',IMG.incorrecto)+'Intenta otra vez.'});
+document.querySelectorAll('#hd [data-t]').forEach(b=>b.classList.toggle('on',+b.dataset.t===l.i));
+$('#pg').style.width=(n/(L.length-1)*100)+'%';$('#ct').textContent=(n+1)+' / '+L.length;$('#pv').disabled=n===0;$('#nx').disabled=n===L.length-1}
+$('#pv').onclick=()=>go(n-1);$('#nx').onclick=()=>go(n+1);
+addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key===' ')go(n+1);if(e.key==='ArrowLeft')go(n-1);if(e.key==='f')$('#fs').click()});
+go(0);
+</script></body></html>
